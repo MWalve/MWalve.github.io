@@ -1,0 +1,22 @@
+
+
+h1 {
+    margin: 0 auto;
+    width: 40px;
+    padding: 50;
+
+}
+
+p {
+    margin-block: 40px black;
+    color: blue;
+    size: 20px;
+}
+
+#submain {
+    color: red;
+}
+
+.A {
+    color: green;
+}
