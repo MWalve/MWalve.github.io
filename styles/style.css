@@ -1,19 +1,18 @@
 
 
 h1 {
-    margin: 0 auto;
-    width: 40px;
-    padding: 50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
 
 }
 
-p {
-    margin-block: 40px black;
+#bio {
     color: blue;
     size: 20px;
 }
 
-#submain {
+#photosText {
     color: red;
 }
 
