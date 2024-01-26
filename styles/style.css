@@ -1,7 +1,7 @@
 
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
     text-align: center;
 
@@ -10,12 +10,26 @@ h1 {
 #bio {
     color: blue;
     size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #photosText {
-    color: red;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.A {
-    color: green;
+#image2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: -10;
+}
+
+body {
+    background-color: #2dbdff;
+}
+
+.inline-item {
+    display: inline-block;
+    color: darkslategray
 }

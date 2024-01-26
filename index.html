@@ -6,21 +6,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
    <!--This is the title of my website--> 
     <h1>
-        Mihir Walvekar's DS4200 Page
+        Mihir Walvekar
     </h1>
     <!--This is the bio--> 
     <p id="bio">
         I am  2nd year Computer Science and Psychology student. I have an interest in the conjunction between neuroscience and computer science.
     </p>
     <p id="photosText">
-        I would like to inclue two photos later
+        <h3>Things to include later</h1>
+        <ul>
+            <li>Other Data Visualizations</li>
+            <li>More Photos</li>
+        </ul>
     </p>
-    <p>
-        This is chill.
-    </p>
+    <!--This is the photo gallery-->
+    <!--You can toggle between photos-->
+    <div class = "photo-container">
+        <img src="images/img1.jpg" alt="img1" length = 500 width = 500/>
+        <button onclick="togglePhotoVisibility('img1')"> Toggle </button>
+        <h5 class="inline-item">Click on the Toggle button to hide image, reclick to reveal</h5>
+    </div>
+    <div class = "photo-container">
+        <img src="images/img2.jpg" alt="img2" length = 500 width = 500/>
+        <button onclick="togglePhotoVisibility('img2')"> Toggle </button>
+        <h5 class="inline-item">Click on the Toggle button to hide image, reclick to reveal</h5>
+    </div>
 
+    <script src="scripts/buttons.js"></script>
 </body>
 </html>
